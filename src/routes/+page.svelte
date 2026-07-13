@@ -550,9 +550,7 @@
 													</p>
 												</div>
 												<div class="flex flex-col">
-													<h4 class="font-sans text-foreground">
-														DIY - Do It Yourself Hot-Dog (2 db virsli, 2 db hot-dog kifli)
-													</h4>
+													<h4 class="font-sans text-foreground">DIY - Do It Yourself Hot-Dog</h4>
 													<p class="text-xs text-muted-foreground">
 														Fiatalos, könnyed, mint egy igazi amerikai street-food.
 														<br />
