@@ -112,6 +112,10 @@
 			info: 'A legnagyobb ajándék számunkra az, hogy együtt ünnepelhetünk Veletek. Ha mégis szeretnétek hozzájárulni a közös jövőnkhöz, azt hálásan köszönjük.'
 		},
 		{
+			title: 'Vendégek által hozott finomságok',
+			info: 'Ha szeretnétek házi készítésű süteménnyel vagy alkoholos itallal hozzájárulni az ünnepléshez, azt örömmel fogadjuk és nagyon köszönjük! Kérjük azonban, hogy ezt előre jelezzétek felénk, mivel a catering felé szükséges leadnunk a hozott tételek megnevezését és mennyiségét.'
+		},
+		{
 			title: 'Ételérzékenység',
 			info: 'Az est folyamán vacsorával és desszertekkel készülünk. Kérjük, ha ételallergiád vagy speciális étrended van, jelezd a visszajelzésnél.'
 		}
