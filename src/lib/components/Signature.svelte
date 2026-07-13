@@ -6,7 +6,7 @@
 	let len = $state(0);
 	let offset = $state(0);
 	let fillOpacity = $state(new MediaQuery('(prefers-reduced-motion: reduce)').current ? 1 : 0);
-	let opacity = $state(0);
+	let opacity = $state(new MediaQuery('(prefers-reduced-motion: reduce)').current ? 1 : 0);
 	let transition = $state('none');
 
 	function play() {
