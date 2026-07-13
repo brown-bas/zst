@@ -225,10 +225,17 @@
 														</p>
 														<p>
 															<MilkOff
+																class="inline-block p-1 bg-red-300 rounded-sm ml-1"
+																size="24px"
+																color="oklch(0.145 0 0)"
+															/>: Laktózmentes
+														</p>
+														<p>
+															<MilkOff
 																class="inline-block p-1 bg-blue-300 rounded-sm ml-1"
 																size="24px"
 																color="oklch(0.145 0 0)"
-															/>: Laktózmentes/Tejmentes
+															/>: Tejmentes
 														</p>
 													</div>
 												</Dialog.Description>
@@ -265,7 +272,7 @@
 													<div class="flex flex-col">
 														<h4 class="font-sans text-foreground">
 															Guacamole, tépett csirke, focaccia chips <MilkOff
-																class="inline-block p-1 bg-blue-300 rounded-sm ml-1"
+																class="inline-block p-1 bg-red-300 rounded-sm ml-1"
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/>
@@ -434,7 +441,7 @@
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/><MilkOff
-																class="inline-block p-1 bg-blue-300 rounded-sm ml-0.5"
+																class="inline-block p-1 bg-red-300 rounded-sm ml-0.5"
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/>
@@ -454,7 +461,7 @@
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/><MilkOff
-																class="inline-block p-1 bg-blue-300 rounded-sm ml-0.5"
+																class="inline-block p-1 bg-red-300 rounded-sm ml-0.5"
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/>
@@ -471,7 +478,7 @@
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/><MilkOff
-																class="inline-block p-1 bg-blue-300 rounded-sm ml-0.5"
+																class="inline-block p-1 bg-red-300 rounded-sm ml-0.5"
 																size="24px"
 																color="oklch(0.145 0 0)"
 															/>
