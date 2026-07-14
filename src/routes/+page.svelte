@@ -157,7 +157,7 @@
 			letehetjük szívünk titkait, akiben megbízunk, akinek kedves arca elűzi lelkünk bánatát, akinek
 			egyszerű jelenléte elég, hogy vidámak és nagyon boldogok legyünk.”
 		</p>
-		<p class="text-sm text-center">Hemingway</p>
+		<p class="text-sm text-center">— Hemingway —</p>
 	</div>
 	<div class="{baseClass} md:w-1/2 w-9/10 flex flex-col pt-16 gap-4">
 		<h2 class="text-5xl text-center">Szeretettel meghívunk</h2>
