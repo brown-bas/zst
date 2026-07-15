@@ -20,7 +20,7 @@
 	<meta property="og:url" content={page.url.href} />
 	<meta property="og:image" content="{page.url.origin}/og-image.webp" />
 	<meta property="og:image:width" content="3648" />
-	<meta property="og:image:height" content="5472" />
+	<meta property="og:image:height" content="1910" />
 	<meta property="og:image:alt" content="Zsuzsi és Tamás esküvője - 2026. augusztus 15." />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Zsuzsi és Tamás esküvője" />
