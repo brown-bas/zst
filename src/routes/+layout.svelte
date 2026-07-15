@@ -8,7 +8,7 @@
 	let { children } = $props();
 
 	const siteUrl = 'https://zsuzsi-es-tamas-eskuvoje.com';
-	const ogImage = `${siteUrl}/og-image.jpg`;
+	const ogImage = `${siteUrl}/og-image.jpg?v=2`;
 	const description =
 		'Zsuzsi és Tamás 2026. augusztus 15-én kötik össze életüket a Wedding Lake-en, Budapesten. Szeretettel várják vendégeiket!';
 </script>
