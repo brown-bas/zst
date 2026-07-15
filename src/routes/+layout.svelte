@@ -22,6 +22,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:locale" content="hu_HU" />
 	<meta property="og:title" content="Zsuzsi és Tamás esküvője" />
+	<meta property="og:site_name" content="Zsuzsi és Tamás esküvője" />
 	<meta property="og:description" content={description} />
 	<meta property="og:url" content="https://zsuzsi-es-tamas-eskuvoje.com/" />
 	<meta property="og:image" content={cover} />
@@ -52,7 +53,7 @@
 				}
 			},
 			"url": "https://zsuzsi-es-tamas-eskuvoje.com/",
-			"image": "https://zsuzsi-es-tamas-eskuvoje.com/og-image.jpg",
+			"image": cover,
 			"organizer": [
 				{ "@type": "Person", "name": "Zsuzsi" },
 				{ "@type": "Person", "name": "Tamás" }
