@@ -20,27 +20,27 @@ const events = [
 		description: 'Közös fotók készítése és menyasszonyi csokor eldobása'
 	},
 	{
-		time: '19:10',
+		time: '19:30',
 		name: 'Vacsora',
 		description: 'Ünnepi vacsora felszolgálása'
 	},
 	{
-		time: '20:40',
+		time: '20:50',
 		name: 'Játékos kvíz',
 		description: 'Könnyed, szórakoztató közös játék'
 	},
 	{
-		time: '21:00',
+		time: '21:20',
 		name: 'Nyitótánc',
 		description: 'Az est hivatalos megnyitása egy tánccal, majd kezdődik a buli'
 	},
 	{
-		time: '22:30',
+		time: '23:00',
 		name: 'Tortavágás',
 		description: 'Torta felvágása és vidám páros játék'
 	},
 	{
-		time: '23:00',
+		time: '23:30',
 		name: 'Indul a buli!',
 		description: 'Felszabadult tánc és fergeteges hangulat hajnalig'
 	},
