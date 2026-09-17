@@ -1,5 +1,5 @@
 <script lang="ts">
-	import './layout.css';
+	import '../layout.css';
 	import { ModeWatcher } from 'mode-watcher';
 	import favicon from '$lib/assets/favicon.svg';
 	import favicon32 from '$lib/assets/favicon.png';
@@ -10,7 +10,7 @@
 	const siteUrl = 'https://zsuzsi-es-tamas-eskuvoje.com';
 	const ogImage = `${siteUrl}/og-image.jpg`;
 	const description =
-		'Zsuzsi és Tamás 2026. augusztus 15-én kötötték össze életüket a Wedding Lake-en, Budapesten.';
+		'Zsuzsi és Tamás 2026. augusztus 15-én kötik össze életüket a Wedding Lake-en, Budapesten. Szeretettel várják vendégeiket!';
 </script>
 
 <svelte:head>
@@ -37,6 +37,32 @@
 	<meta name="twitter:title" content="Zsuzsi és Tamás esküvője" />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={ogImage} />
+	<script type="application/ld+json">
+	{
+		'@context': 'https://schema.org',
+		'@type': 'Event',
+		name: 'Zsuzsi és Tamás esküvője',
+		description,
+		startDate: '2026-08-15',
+		eventStatus: 'https://schema.org/EventScheduled',
+		eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+		location: {
+			'@type': 'Place',
+			name: 'Wedding Lake',
+			address: {
+				'@type': 'PostalAddress',
+				addressLocality: 'Budapest',
+				addressCountry: 'HU'
+			}
+		},
+		url: `${siteUrl}/`,
+		image: ogImage,
+		organizer: [
+			{ '@type': 'Person', name: 'Zsuzsi' },
+			{ '@type': 'Person', name: 'Tamás' }
+		]
+	}
+	</script>
 	<link
 		rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -52,6 +78,6 @@
 </svelte:head>
 
 <ModeWatcher />
-<div class="w-full min-h-screen h-full">
+<div class="w-full min-h-screen">
 	{@render children()}
 </div>

@@ -1,12 +1,16 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onMount, untrack } from 'svelte';
 	import { MediaQuery } from 'svelte/reactivity';
+
+	let { animate = true }: { animate?: boolean } = $props();
 
 	let pathEl: SVGPathElement;
 	let len = $state(0);
 	let offset = $state(0);
-	let fillOpacity = $state(new MediaQuery('(prefers-reduced-motion: reduce)').current ? 1 : 0);
-	let opacity = $state(new MediaQuery('(prefers-reduced-motion: reduce)').current ? 1 : 0);
+	let reducedMotion = new MediaQuery('(prefers-reduced-motion: reduce)');
+	let shouldAnimate = $derived(animate && !reducedMotion.current);
+	let fillOpacity = $state(untrack(() => shouldAnimate) ? 0 : 1);
+	let opacity = $state(untrack(() => shouldAnimate) ? 0 : 1);
 	let transition = $state('none');
 
 	function play() {
@@ -33,10 +37,10 @@
 
 		len = pathEl.getTotalLength();
 
-		if (new MediaQuery('(prefers-reduced-motion: reduce)').current) {
-			offset = 0;
-		} else {
+		if (shouldAnimate) {
 			play();
+		} else {
+			offset = 0;
 		}
 	});
 </script>
