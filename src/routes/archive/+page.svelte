@@ -193,7 +193,7 @@
 	</div>
 </main>
 <footer
-	class="h-max p-6 bg-primary mt-24 flex justify-center items-center text-background dark:text-foreground"
+	class="invite h-max p-6 bg-primary mt-24 flex justify-center items-center text-background dark:text-foreground"
 >
 	<p>Made with <span class="material-symbols-rounded">favorite</span> by brown-bas</p>
 </footer>

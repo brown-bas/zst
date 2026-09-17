@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="w-full min-h-screen bg-fixed bg-center bg-cover h-full bg-blend-multiply bg-black/75"
+	class="text-white w-full min-h-screen bg-fixed bg-center bg-cover h-full bg-blend-multiply bg-black/75"
 	style="background-image: url({Background});"
 >
 	<div
@@ -15,9 +15,16 @@
 		<Signature animate={false} />
 		<h3 class="lg:m-auto mt-8 text-3xl lg:text-4xl">Köszönjük, hogy eljöttetek!</h3>
 		<div class="flex flex-col lg:flex-row gap-2 items-center">
-			<h3 class="lg:m-auto mt-8 text-sm lg:text-md font-sans text-foreground">Képek hamarosan!</h3>
+			<h3 class="lg:m-auto mt-8 text-sm lg:text-md font-sans text-white">Képek hamarosan!</h3>
 			•
 			<Button class="p-0" variant="link" href={resolve('/archive')}>Eredeti meghívó</Button>
 		</div>
 	</div>
+	<footer
+		class="absolute h-max p-6 bottom-0 bg-transparent w-full flex justify-center items-center"
+	>
+		<p class="text-xs! lg:text-sm!">
+			Made with <span class="material-symbols-rounded text-lg! align-middle!">favorite</span> by brown-bas
+		</p>
+	</footer>
 </div>

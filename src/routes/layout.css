@@ -133,7 +133,7 @@
 	*::selection {
 		@apply bg-primary/50 text-foreground;
 	}
-	footer *::selection {
+	footer.invite *::selection {
 		@apply bg-background text-foreground;
 	}
 	* {
