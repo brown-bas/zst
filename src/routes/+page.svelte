@@ -14,8 +14,8 @@
 	>
 		<Signature animate={false} />
 		<h3 class="lg:m-auto mt-8 text-3xl lg:text-4xl">Köszönjük, hogy eljöttetek!</h3>
-		<div class="flex flex-col lg:flex-row gap-2 items-center">
-			<h3 class="lg:m-auto mt-8 text-sm lg:text-md font-sans text-white">Képek hamarosan!</h3>
+		<div class="flex flex-col lg:flex-row lg:gap-2 gap-0 mt-8 lg:mt-0 items-center">
+			<Button class="p-0" variant="link" href={resolve('/photos')}>Képek</Button>
 			•
 			<Button class="p-0" variant="link" href={resolve('/archive')}>Eredeti meghívó</Button>
 		</div>
