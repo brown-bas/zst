@@ -17,7 +17,7 @@
 		<div class="flex flex-col lg:flex-row lg:gap-2 gap-0 mt-8 lg:mt-0 items-center">
 			<Button class="p-0" variant="link" href={resolve('/photos')}>Képek</Button>
 			•
-			<Button class="p-0" variant="link" href={resolve('/archive')}>Eredeti meghívó</Button>
+			<Button class="p-0" variant="link" href={resolve('/invitation')}>Eredeti meghívó</Button>
 		</div>
 	</div>
 	<footer
