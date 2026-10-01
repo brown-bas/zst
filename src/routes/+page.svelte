@@ -21,10 +21,24 @@
 		</div>
 	</div>
 	<footer
-		class="absolute h-max p-6 bottom-0 bg-transparent w-full flex justify-center items-center"
+		class="absolute h-max p-6 bottom-0 bg-transparent w-full flex justify-center items-center text-background dark:text-foreground flex-col lg:flex-row lg:items-baseline"
 	>
 		<p class="text-xs! lg:text-sm!">
-			Made with <span class="material-symbols-rounded text-lg! align-middle!">favorite</span> by brown-bas
+			<span class="material-symbols-rounded text-lg! align-middle!">photo_camera</span> by <Button
+				target="_blank"
+				variant="link"
+				class="p-0! text-foreground"
+				href="https://subafoto.hu">SubaFoto</Button
+			>
+		</p>
+		<p class="text-sm! mx-2 hidden lg:block">·</p>
+		<p class="text-xs! lg:text-sm!">
+			Made with <span class="material-symbols-rounded text-lg! align-middle!">favorite</span> by <Button
+				target="_blank"
+				variant="link"
+				class="p-0! text-foreground"
+				href="https://github.com/brown-bas">brown-bas</Button
+			>
 		</p>
 	</footer>
 </div>
