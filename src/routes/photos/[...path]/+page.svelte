@@ -76,8 +76,8 @@
 			variant="link"
 			class="p-0!"
 			href="https://subafoto.hu">SubaFoto</Button
-		> & <Button target="_blank" variant="link" class="p-0!" href="https://fotobox.hu"
-			>fotoBox</Button
+		> & <Button target="_blank" variant="link" class="p-0!" href="https://vintagebox.hu"
+			>Vintage Box</Button
 		>
 	</p>
 	<p class="text-sm! mx-2 hidden lg:block">·</p>
