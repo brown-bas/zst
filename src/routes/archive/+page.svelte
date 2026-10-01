@@ -8,7 +8,7 @@
 	import Invitation from '$lib/assets/invitation.webp';
 	import Program from '$lib/assets/program.webp';
 	import { mode } from 'mode-watcher';
-	import Menu from '$lib/components/Menu.svelte';
+	import Menu from '$lib/components/invite/Menu.svelte';
 	import events from '$lib/data/events';
 	import infos from '$lib/data/infos';
 
